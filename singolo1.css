@@ -1,0 +1,378 @@
+body {
+    font-family: "Lato";
+    margin: 0;
+}
+
+.main-header {
+    background-color: #2d303a;
+    width: 1020px;
+    height: 89px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.singolo-logo {
+    font-size: 18px;
+    line-height: 6px;
+    font-family: "Lato";
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 40px;
+    width: 300px;
+    height: 20px;
+    transition: opacity 1s;
+}
+
+.singolo-logo:hover:not(:active) {
+    opacity: 1;
+}
+
+.singolo-logo>.sin {
+    color: #ffffff;
+}
+
+.singolo-logo>.logo {
+    color: #F06C64;
+}
+
+.singolo-menu {
+    align-items: center;
+    margin-left: 220px;
+    margin-top: 15px;
+}
+
+
+.singolo-menu>ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.singolo-menu a {
+    text-decoration: none;
+    font-size: 12px;
+    color: cornsilk;
+    font-family: "Lato";
+    font-weight: 700;
+    transition: color 1s;
+    transition: opacity 1s;
+}
+
+.singolo-menu a:hover {
+    color: #F06C64;
+}
+
+.singolo-menu:hover:not(:active) {
+    opacity: 1;
+}
+
+
+li:not(:last-child) {
+    margin-right: 31px;
+}
+
+.header-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+    margin-top: 18px;
+}
+
+.carousel {
+    position: relative;
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+}
+
+.slide {
+    margin-left: 110px;
+    margin-top: -31px;
+}
+
+.slide-1 {
+    position: relative;
+    margin-left: 361px;
+    margin-top: -500px;
+}
+
+.bg-bottom {
+    position: absolute;
+    width: 1020px;
+    height: 15px;
+    background-color: #EA676B;
+    margin-top: -65px;
+}
+
+.chev {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+}
+
+.chev>img {
+    position: absolute;
+    margin-top: 281px;
+}
+
+.chev1 {
+    position: relative;
+    margin-left: 906px;
+}
+
+.chev1>img {
+    position: absolute;
+    margin-top: 281px;
+}
+
+/* ----------------------------------------- */
+.features {
+    background: #f2f2f2;
+    width: 1020px;
+    height: 500px;
+    position: absolute;
+}
+
+.pclass {
+    position: relative;
+    margin-top: 67px;
+}
+
+.services {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.text {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: justify;
+    margin-left: 41px;
+}
+
+.features>.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    padding-top: 8px;
+}
+
+.features .article {
+    width: 100%;
+    height: 130px;
+    background: #f2f2f2;
+}
+
+.custom {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: center;
+    margin-left: 19px;
+}
+
+.custom-text {
+    width: 220px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: justify;
+    margin-left: 122px;
+}
+
+.article>img {
+    position: absolute;
+
+}
+
+.ellipse {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.ellipse2 {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ellipse3 {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.pen {
+    position: relative;
+    margin-top: 32px;
+    margin-left: 49px;
+}
+
+.inovative {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: center;
+    margin-left: -15px;
+}
+
+.inovative-text {
+    width: 220px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+.bulb {
+    position: relative;
+    margin-top: 33px;
+    margin-left: 38px;
+}
+
+.phone {
+    position: relative;
+    margin-top: 32px;
+    margin-left: 53px;
+}
+
+.responsive {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: center;
+    margin-left: 49px;
+}
+
+.responsive-text {
+    width: 220px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: justify;
+    margin-left: 122px;
+}
+
+.bubble {
+    position: relative;
+    margin-top: 36px;
+    margin-left: 33px;
+}
+
+.support {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: center;
+    margin-left: -25px;
+}
+
+.support-text {
+    width: 220px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+.heart {
+    position: relative;
+    margin-top: 35px;
+    margin-left: 13px;
+}
+
+.love {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: center;
+    margin-left: -23px;
+}
+
+.love-text {
+    width: 218px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.star {
+    position: relative;
+    margin-top: 32px;
+    margin-left: 13px;
+}
+
+.feel {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: center;
+    margin-left: -53px;
+}
+
+.feel-text {
+    width: 218px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.Bg-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+    margin-top: 35px;
+}
